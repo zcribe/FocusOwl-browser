@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "FocusOwl",
+  "author": "Erlend Eelmets",
+  "version": "1.0",
+  "description": "FocusOwl is a timer extension that allows you to focus on your work and take a break when needed. It is based on the Pomodoro technique.",
+  "icons": {
+    "36": "icons/timer/android-icon-36x36.png",
+    "48": "icons/timer/android-icon-48x48-owl.png",
+    "72": "icons/timer/android-icon-72x72.png",
+    "96": "icons/timer/android-icon-96x96.png",
+    "144": "icons/timer/android-icon-144x144.png",
+    "192": "icons/timer/android-icon-192x192.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "36": "icons/timer/android-icon-36x36.png",
+      "48": "icons/timer/android-icon-48x48-owl.png",
+      "72": "icons/timer/android-icon-72x72.png",
+      "96": "icons/timer/android-icon-96x96.png",
+      "144": "icons/timer/android-icon-144x144.png",
+      "192": "icons/timer/android-icon-192x192.png"
+    },
+    "default_title": "FocusOwl",
+    "default_popup": "popup/index.html"
+  },
+  "background": {
+    "scripts": [
+      "background/timer.js"
+    ],
+    "persistent": true
+  }
+}

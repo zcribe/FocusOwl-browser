@@ -1,0 +1,213 @@
+
+html {
+    font-family: "Segoe UI", Tahoma, SansSerif, Arial;
+    font-size: 15px;
+    font-weight: 400;
+    color: #0c0c0d;
+
+}
+
+button,
+button:focus,
+button:active {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.color--primary-text__light {
+    color: #0c0c0d;
+}
+
+.color--primary-text__dark {
+    color: #ffffff;
+}
+
+.color--secondary-text__light {
+    color: #737373;
+}
+
+
+.mainContent {
+    margin: 18px;
+}
+
+.item--main {
+    margin-bottom: 32px;
+}
+
+.item--secondary {
+    margin-bottom: 16px;
+}
+
+.item--tertiary {
+    margin-bottom: 8px;
+}
+
+.item--quadrary {
+    margin-bottom: 4px;
+}
+
+.text__display--20 {
+    font-size: 36px;
+    font-weight: 200;
+}
+
+.text__title--30 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.text__title--10 {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.text__caption--20 {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.text__caption--10 {
+    font-size: 11px;
+    font-weight: 400;
+}
+
+button {
+    border-radius: 2px;
+    height: 32px;
+    padding: 8px 0;
+    font-size: 13px;
+    font-weight: 400;
+    min-width: 132px;
+    width: auto;
+    color: #0c0c0d;
+    background: rgba(12, 12, 13, 0.1);
+    box-shadow: none;
+    outline: none;
+}
+
+
+button:hover {
+    background-color: rgba(12, 12, 13, 0.2);
+}
+
+button:visited {
+    background-color: rgba(12, 12, 13, 0.3);
+}
+
+button:focus {
+    box-shadow: 0 0 0 1px #0a84ff inset, 0 0 0 1px #0a84ff, 0 0 0 4px rgba(10, 132, 255, 0.3);
+}
+
+button:disabled {
+    opacity: 40%;
+}
+
+.button--primary {
+    color: #ffffff;
+    background: #0060df;
+}
+
+.button--primary:hover {
+    background: #003eaa;
+}
+
+.button--primary:focus {
+    background: #003eaa;
+}
+
+.button--primary:visited, :visited:focus, :visited:hover {
+    background: #002275;
+
+}
+
+.button--primary:visited:focus {
+    background: #002275;
+    box-shadow: 0 0 0 1px #0a84ff inset, 0 0 0 1px #0a84ff, 0 0 0 4px rgba(10, 132, 255, 0.3);
+}
+
+.button--secondary:disabled {
+    opacity: 40%;
+}
+
+.button--secondary {
+    color: #ffffff;
+    background: #05df40;
+}
+
+.button--secondary:hover {
+    background: #0baa22;
+}
+
+.button--secondary:focus {
+    background: #0caa3c;
+}
+
+.button--secondary:visited, :visited:focus, :visited:hover {
+    background: #067522;
+
+}
+
+.button--secondary:visited:focus {
+    background: #01751e;
+    box-shadow: 0 0 0 1px #0a84ff inset, 0 0 0 1px #0a84ff, 0 0 0 4px rgba(10, 132, 255, 0.3);
+}
+
+.button--secondary:disabled {
+    opacity: 40%;
+}
+
+
+.button--ghost {
+    height: 32px;
+    width: 32px;
+    min-width: unset;
+    background: white;
+}
+
+
+.button--micro {
+    border-radius: 2px;
+    height: 24px;
+    padding: 8px 0;
+    font-size: 11px;
+    font-weight: 400;
+    width: auto;
+}
+
+.icon{
+    height: 16px;
+    width: 16px;
+}
+
+#controller{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.controller__time {
+    margin: 0 5px;
+}
+
+.icon-head{
+    display: flex;
+    flex-direction: column;
+}
+
+.disabled, .disabled:hover, .disabled:focus, .disabled:visited{
+    opacity: 40%;
+    background-color: #fff;
+    box-shadow: none;
+}
