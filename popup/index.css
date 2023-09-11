@@ -2,8 +2,8 @@ html {
     font-family: "Segoe UI", Tahoma, SansSerif, Arial;
     font-size: 15px;
     font-weight: 400;
-    color: #eee;
-    background-color: #fe7b5f;
+    color: #f9ffd7;
+    background-color: #ed3e13;
 }
 
 button,
@@ -14,7 +14,7 @@ button:active {
     outline: none;
     padding: 10px;
     box-shadow: 5px 10px #888888;
-    color: #fff
+    color: #f9ffd7
 }
 
 
@@ -30,7 +30,7 @@ button:active {
 }
 
 .color--primary-text__dark {
-    color: #ffffff;
+    color: #f9ffd7;
 }
 
 .color--secondary-text__light {
@@ -117,7 +117,7 @@ button:disabled {
 }
 
 .button--primary {
-    color: #ffffff;
+    color: #f9ffd7;
     background: #000;
 }
 
@@ -144,7 +144,7 @@ button:disabled {
 }
 
 .button--secondary {
-    color: #ffffff;
+    color: #f9ffd7;
     background: #05df40;
 }
 
@@ -219,12 +219,12 @@ button:disabled {
 }
 
 #time {
-    color: #fe7b5f;
+    color: #770c26
 }
 
 .background--circle {
     position: fixed;
     top: 17%;
-    left: 4%;
+    left: 3.5%;
     z-index: -100;
 }
