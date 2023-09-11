@@ -1,19 +1,20 @@
-
 html {
     font-family: "Segoe UI", Tahoma, SansSerif, Arial;
     font-size: 15px;
     font-weight: 400;
-    color: #0c0c0d;
-
+    color: #eee;
+    background-color: #fe7b5f;
 }
 
 button,
 button:focus,
 button:active {
     border: none;
-    background: none;
+    background: #444;
     outline: none;
-    padding: 0;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+    color: #fff
 }
 
 
@@ -47,6 +48,7 @@ button:active {
 
 .item--secondary {
     margin-bottom: 16px;
+    text-align: center
 }
 
 .item--tertiary {
@@ -58,13 +60,13 @@ button:active {
 }
 
 .text__display--20 {
-    font-size: 36px;
-    font-weight: 200;
+    font-size: 64px;
+    font-weight: 700;
 }
 
 .text__title--30 {
     font-size: 22px;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 .text__title--10 {
@@ -94,6 +96,7 @@ button {
     background: rgba(12, 12, 13, 0.1);
     box-shadow: none;
     outline: none;
+    border-radius: 30px;
 }
 
 
@@ -115,7 +118,7 @@ button:disabled {
 
 .button--primary {
     color: #ffffff;
-    background: #0060df;
+    background: #000;
 }
 
 .button--primary:hover {
@@ -172,7 +175,7 @@ button:disabled {
     height: 32px;
     width: 32px;
     min-width: unset;
-    background: white;
+    background: rgba(50, 0, 0, 0.1);
 }
 
 
@@ -185,12 +188,12 @@ button:disabled {
     width: auto;
 }
 
-.icon{
+.icon {
     height: 16px;
     width: 16px;
 }
 
-#controller{
+#controller {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -201,13 +204,27 @@ button:disabled {
     margin: 0 5px;
 }
 
-.icon-head{
+.icon-head {
     display: flex;
     flex-direction: column;
 }
 
-.disabled, .disabled:hover, .disabled:focus, .disabled:visited{
-    opacity: 40%;
-    background-color: #fff;
+.icon-image {
+    margin: auto;
+}
+
+.disabled, .disabled:hover, .disabled:focus, .disabled:visited {
+    opacity: 20%;
     box-shadow: none;
+}
+
+#time {
+    color: #fe7b5f;
+}
+
+.background--circle {
+    position: fixed;
+    top: 17%;
+    left: 4%;
+    z-index: -100;
 }
