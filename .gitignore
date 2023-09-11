@@ -253,9 +253,9 @@ typings/
 .idea/misc.xml
 .idea/modules.xml
 background/
-icons/
 manifest.json
 package-lock.json
 package.json
 popup/
 sound/
+owl.ai
